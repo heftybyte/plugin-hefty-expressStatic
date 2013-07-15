@@ -1,5 +1,5 @@
 {
-	"name": "hefty.http-static",
+	"name": "plugin-hefty-expressStatic",
 	"version": "0.0.1",
 	"main": "expressStatic.js",
 	"dependencies": {
@@ -8,7 +8,7 @@
 		"swig": "*"
 	},
 	"plugin": {
-		"consumes": ["expressServer"],
-		"provides": ["expressStatic"]
+		"consumes": ["hefty-expressServer"],
+		"provides": ["hefty-expressStatic"]
 	}
 }
