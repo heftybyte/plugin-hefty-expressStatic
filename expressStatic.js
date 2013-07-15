@@ -2,7 +2,7 @@ module.exports = function setup(options imports, register) {
 
 	var httpServer = imports.httpServer;
 	var express = require('express');
-	var consolidate = require('consolidate')
+	var consolidate = require('consolidate');
 	var swig = require('swig');
 	var path = require('path');
 
