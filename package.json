@@ -2,6 +2,7 @@
 	"name": "plugin-hefty-expressStatic",
 	"version": "0.0.1",
 	"main": "expressStatic.js",
+	"repository": "git://github.com:heftybyte/plugin-hefty-expressStatic",
 	"dependencies": {
 		"plugin-expressServer": "*",
 		"consolidate": "*",
