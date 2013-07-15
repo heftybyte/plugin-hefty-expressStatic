@@ -3,7 +3,8 @@
 	"version": "0.0.1",
 	"main": "expressStatic.js",
 	"dependencies": {
-		"plugin-expressServer": "*"
+		"plugin-expressServer": "*",
+		"swig": "*"
 	},
 	"plugin": {
 		"consumes": ["expressServer"],
